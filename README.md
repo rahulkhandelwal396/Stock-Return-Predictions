@@ -26,3 +26,18 @@ For the first 11 variables, the value stored is a proportional change in stock v
 # Task
 
 On the basis of returns from ReturnJan. ReturnFeb …. ReturnNov, we will predict if Returns will be positive in the month of December. 
+
+# Methodology
+
+<ol>
+ <li>Read data</li>
+<li>Divide data into training and testing sets using ReturnDec as the target variable (70-30)</li>
+<li>Check accuracy of baseline model (which predicts the most frequent outcome) (~54%)</li>
+<li>Develop a basic logistic regression model and compare accuracy (Marginal improvement) (~56.7%)</li>
+<li>Normalize training and testing set data</li>
+<li>Use KMeans clustering to make 3 clusters of data</li>
+<li>Divide data into training and testing set data per cluster</li>
+<li>Develop logistic regression models on top of each cluster data</li>
+<li>Combine predictions and outcome to calculate compound accuracy. (~62%)</li>
+ </ol>
+
