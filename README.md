@@ -23,11 +23,11 @@ This dataset contains the following variables:
 
 For the first 11 variables, the value stored is a proportional change in stock value during that month. For instance, a value of 0.05 means the stock increased in value 5% during the month, while a value of -0.02 means the stock decreased in value 2% during the month.
 
-# Task
+### Task
 
 On the basis of returns from ReturnJan. ReturnFeb …. ReturnNov, we will predict if Returns will be positive in the month of December. 
 
-# Methodology
+### Methodology
 
 <ol>
  <li>Read data</li>
